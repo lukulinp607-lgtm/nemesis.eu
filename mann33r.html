@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<title>Player Detail</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial;
+    background:#0b0b0b;
+    color:white;
+}
+
+.container{
+    max-width:900px;
+    margin:auto;
+    padding:40px;
+}
+
+.card{
+    background:rgba(255,255,255,0.05);
+    border:1px solid orange;
+    border-radius:15px;
+    padding:30px;
+    text-align:center;
+    box-shadow:0 0 25px rgba(255,165,0,.3);
+}
+
+.avatar{
+    width:170px;
+    height:170px;
+    border-radius:50%;
+    border:3px solid orange;
+    object-fit:cover;
+    margin-bottom:15px;
+}
+
+h1{
+    color:orange;
+    margin-bottom:5px;
+}
+
+.role{
+    opacity:0.8;
+    margin-bottom:15px;
+}
+
+.desc{
+    opacity:0.85;
+    margin-bottom:20px;
+    line-height:1.4;
+}
+
+.stats{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:15px;
+    margin-top:20px;
+}
+
+.stat{
+    background:rgba(255,255,255,0.04);
+    padding:15px;
+    border-radius:10px;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:15px;
+    padding:12px 18px;
+    background:orange;
+    color:black;
+    text-decoration:none;
+    border-radius:10px;
+    font-weight:bold;
+    margin-right:10px;
+}
+
+.btn:hover{
+    box-shadow:0 0 15px orange;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="card">
+
+<img src="images/PLAYER.jpg" class="avatar">
+
+<h1>PLAYER NAME</h1>
+
+<div class="role">🎯 ROLE</div>
+
+<div class="desc">
+🧠 Mann33r je novodobý profesionalní hráč se zaměřením hlavně na awp. Má agresivní zbůsob hraní od kterého je odvozené i jméno. Je to mladý talent!
+</div>
+
+<div class="stats">
+
+<div class="stat">🔥 Kills<br>000</div>
+<div class="stat">💀 Deaths<br>000</div>
+<div class="stat">📊 K/D<br>1.20</div>
+<div class="stat">🏆 MVP<br>0</div>
+<div class="stat">💣 Clutches<br>0</div>
+<div class="stat">🎮 Games<br>0</div>
+
+</div>
+
+<a class="btn" href="https://steamcommunity.com/id/mann33r" target="_blank">🎮 Steam</a>
+<a class="btn" href="contact.html">📞 Kontakt</a>
+<a class="btn" href="roster.html">⬅ Zpět</a>
+
+</div>
+
+</div>
+
+</body>
+</html>
